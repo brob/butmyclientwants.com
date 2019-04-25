@@ -1,6 +1,6 @@
-# MyClientWants.com - A site dedicated to removing the stima of "Static sites" in the Agency/freelance world
+# MyClientWants.com
 
-This site is dedicated to providing resources for developers and designers in agencies or doing freelance for JAMstack sites.
+ A site dedicated to removing the stima of "Static sites" in the Agency/freelance world. This site is provides resources for developers and designers in agencies or doing freelance for JAMstack sites.
 
 ## Contributing
 
