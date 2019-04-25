@@ -113,7 +113,7 @@ a::selection {
 }
 @media (max-width: 640px) {
     .banner {
-        background-image: none;
+        background-size: 50%;
         padding: 0 1rem 1rem;
         display: block;
         margin: 2rem auto;
