@@ -21,7 +21,7 @@ a {
 
 .utility {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     padding: .5rem 1rem;
 }
 .utility__items {
@@ -47,19 +47,6 @@ a {
                          "description ."
                          "nav         .";
 }
-@media (max-width: 900px) {
-    html {
-        font-size: 15px;
-    }
-    .banner {
-        grid-template-areas: "title"
-                             "headline"
-                             "description"
-                             "nav"
-                             ".";
-        grid-template-columns: 1fr;
-    }
-}
 
 .banner__title {
     grid-area: title;
@@ -79,6 +66,35 @@ a {
 .banner__nav {
     grid-area: nav;
 }
+
+@media (max-width: 900px) {
+    html {
+        font-size: 15px;
+    }
+    .banner {
+        grid-template-areas: "title       title"
+                             "headline    ."
+                             "description ."
+                             "nav         .";
+        grid-template-columns: 1fr .25fr;
+    }
+}
+@media (max-width: 640px) {
+    .banner {
+        background-image: none;
+        padding: 0 1rem 1rem;
+        display: block;
+        margin: 2rem auto;
+    }
+    .banner__title {
+        font-size: 2.5rem;
+    }
+    .banner__headline {
+        font-size: 1.5rem;
+    }
+}
+
+
 
 
 .section {
