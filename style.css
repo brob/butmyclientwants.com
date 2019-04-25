@@ -143,8 +143,8 @@ a::selection {
 }
 .section__list {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
     padding: 0;
     justify-content: center;
 }
@@ -167,7 +167,24 @@ a::selection {
     }
 }
 
-
+.card {
+    background-color: white;
+    box-shadow: 0px 0px 1px #333;
+    padding: 2rem;
+    display: block;
+}
+.card__title {
+    font-size: 1.3rem;
+    line-height: 1.6em;
+}
+.card__author {
+    font-size: .75rem;
+    display: block;
+}
+.card__description {
+    font-size: .9rem;
+    margin-bottom: 0;
+}
 
 .footer {
     background-color: #3a4748;
