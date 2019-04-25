@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 18px;
+    line-height: 1.4em;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+}
+
+
+.banner {
+    padding: 7rem 2rem 15rem;
+    background-image: url(/assets/images/banner-background.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    width: 90vw;
+    max-width: 1300px;
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+}
+.banner__title {
+    grid-area: 1;
+    margin: 0;
+    line-height: 1.4em;
+    font-size: 4rem;
+}
+.banner__headline {
+    grid-area: 2 / 1 / 2 / 1;
+    margin: 0 0 1rem;
+    line-height: 1.4em;
+}
+.banner__description{
+    grid-area: 3 / 1 / 3 / 1;
+    margin: 0;
+}
+
+
+.section {
+    padding: 3rem;
+}
