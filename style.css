@@ -141,6 +141,9 @@ a::selection {
 .section:nth-child(odd) {
     background-color: #e7f9fc;
 }
+.section:nth-child(even) .card {
+    background-color: #e7f9fc;
+}
 .section__list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
