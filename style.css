@@ -67,6 +67,27 @@ a {
     grid-area: nav;
 }
 
+.jumplinks {
+    
+}
+.jumplinks__links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.2rem;
+}
+.jumplinks__title {
+    margin-bottom: .5rem;
+}
+.jumplinks__links li {
+    list-style: none;
+    margin: 0 1.5rem 0 0;
+}
+.jumplinks__links li:last-child {
+    margin: 0;
+}
+
 @media (max-width: 900px) {
     html {
         font-size: 15px;
@@ -91,6 +112,12 @@ a {
     }
     .banner__headline {
         font-size: 1.5rem;
+    }
+    .jumplinks__links {
+        display: block;
+    }
+    .jumplinks__links li {
+        margin-bottom: .5rem;
     }
 }
 
