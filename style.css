@@ -43,3 +43,27 @@ body {
 .section {
     padding: 3rem;
 }
+.section--odd {
+    background-color: #b4d5d8;
+}
+.section__list {
+    column-count: 3;
+    padding: 0;
+}
+.section__list li {
+    list-style: none;
+    margin-bottom: .5rem;
+}
+
+
+
+.footer {
+    background-color: #3a4748;
+    color: white;
+    text-align: center;
+    padding: 1rem .5rem;
+    margin-top: 1.5rem;
+}
+.footer a {
+    color: white;
+}
