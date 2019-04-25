@@ -20,6 +20,10 @@ h1, h2, h3 {
 
 a {
     color: #3a949f;
+    transition: .3s ease-out;
+}
+a:hover {
+    color: #17aec2;
 }
 a::selection {
     color: white;
