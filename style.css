@@ -139,7 +139,7 @@ a::selection {
     padding: 5rem;
 }
 .section:nth-child(odd) {
-    background-color: #b4d5d8;
+    background-color: #e7f9fc;
 }
 .section__list {
     display: grid;
