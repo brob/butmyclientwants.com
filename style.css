@@ -131,20 +131,28 @@ a {
     background-color: #b4d5d8;
 }
 .section__list {
-    column-count: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
     padding: 0;
+    justify-content: center;
 }
 .section__list li {
     list-style: none;
     margin-bottom: 1rem;
+    font-size: 1.2rem;
 }
-
+@media (max-width: 900px) {
+    .section__list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
 @media (max-width: 640px) {
     .section {
         padding: 1.5rem 1rem;
     }
     .section__list {
-        column-count: 1;
+        display: block;
     }
 }
 
