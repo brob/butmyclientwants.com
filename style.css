@@ -10,6 +10,9 @@ body {
     margin: 0;
     font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 }
+::selection {
+    background-color: #3a949f; 
+}
 
 h1, h2, h3 {
     font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
@@ -17,6 +20,9 @@ h1, h2, h3 {
 
 a {
     color: #3a949f;
+}
+a::selection {
+    color: white;
 }
 
 .utility {
@@ -75,6 +81,7 @@ a {
     padding: 0;
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
     font-size: 1.2rem;
 }
 .jumplinks__title {
@@ -82,7 +89,7 @@ a {
 }
 .jumplinks__links li {
     list-style: none;
-    margin: 0 1.5rem 0 0;
+    margin: 0 1.5rem .5rem 0;
 }
 .jumplinks__links li:last-child {
     margin: 0;
