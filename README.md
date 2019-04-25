@@ -4,7 +4,9 @@ This site is dedicated to providing resources for developers and designers in ag
 
 ## Contributing
 
-Pull Requests are definitely welcome, however, if you just want to add a resource, [open an issue with the link, title and description of the resource](https://github.com/brob/butmyclientwants.com/issues)
+Pull Requests are definitely welcome, however, if you just want to add a resource, [open an issue with the link, title and description of the resource](https://github.com/brob/butmyclientwants.com/issues).
+
+The site itself currently is static HTML and CSS, but there are plans to expand that in the future.
 
 ## Future Development
 
