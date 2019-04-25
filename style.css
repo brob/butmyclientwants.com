@@ -15,6 +15,21 @@ h1, h2, h3 {
     font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 }
 
+a {
+    color: #3a949f;
+}
+
+.utility {
+    display: flex;
+    justify-content: end;
+    padding: .5rem 1rem;
+}
+.utility__items {
+    margin: 0;
+}
+.utility__items li {
+    list-style: none;
+}
 
 .banner {
     padding: 0 2rem 15rem;
@@ -67,7 +82,7 @@ h1, h2, h3 {
 
 
 .section {
-    padding: 3rem;
+    padding: 5rem;
 }
 .section:nth-child(odd) {
     background-color: #b4d5d8;
@@ -78,10 +93,13 @@ h1, h2, h3 {
 }
 .section__list li {
     list-style: none;
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
 }
 
 @media (max-width: 640px) {
+    .section {
+        padding: 1.5rem 1rem;
+    }
     .section__list {
         column-count: 1;
     }
