@@ -32,13 +32,15 @@ a::selection {
 .utility {
     display: flex;
     justify-content: flex-end;
-    padding: .5rem 1rem;
+    padding: .5rem;
 }
 .utility__items {
     margin: 0;
+    display: flex;
 }
 .utility__items li {
     list-style: none;
+    margin-right: 1rem;
 }
 
 .banner {
