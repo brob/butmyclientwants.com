@@ -27,31 +27,49 @@ h1, h2, h3 {
     margin: 8rem auto;
     display: grid;
     grid-template-columns: 1fr .5fr;
+    grid-template-areas: "title       ."
+                         "headline    ."
+                         "description ."
+                         "nav         .";
 }
+@media (max-width: 900px) {
+    html {
+        font-size: 15px;
+    }
+    .banner {
+        grid-template-areas: "title"
+                             "headline"
+                             "description"
+                             "nav"
+                             ".";
+        grid-template-columns: 1fr;
+    }
+}
+
 .banner__title {
-    grid-area: 1;
+    grid-area: title;
     margin: 0;
-    line-height: 1.4em;
+    line-height: 1.3em;
     font-size: 3.5rem;
 }
 .banner__headline {
-    grid-area: 2 / 1 / 2 / 1;
+    grid-area: headline;
     margin: 0 0 1rem;
     line-height: 1.4em;
 }
 .banner__description{
-    grid-area: 3 / 1 / 3 / 1;
+    grid-area: description;
     margin: 0;
 }
 .banner__nav {
-    grid-area: 4 / 1 / 4 / 1;
+    grid-area: nav;
 }
 
 
 .section {
     padding: 3rem;
 }
-.section--odd {
+.section:nth-child(odd) {
     background-color: #b4d5d8;
 }
 .section__list {
@@ -61,6 +79,12 @@ h1, h2, h3 {
 .section__list li {
     list-style: none;
     margin-bottom: .5rem;
+}
+
+@media (max-width: 640px) {
+    .section__list {
+        column-count: 1;
+    }
 }
 
 
