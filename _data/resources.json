@@ -181,6 +181,15 @@
                 "tags": [
                     "Tutorial"
                 ]
+            },
+            {
+                "title": "Dynamic product management in a static e-commerce workflow",
+                "author": "Yanick Ouellet",
+                "url": "https://www.contentful.com/blog/2016/02/10/snipcart-middleman-contentful/",
+                "description": "Integrating Middleman, Contentful & Snipcart to create this static e-commerce workflow took me around 4 hours. And I can say for sure that they were well-spent hours: working with these powerful tools was a lot of fun.",
+                "tags": [
+                    "Tutorial"
+                ]
             }
         ]
     },
