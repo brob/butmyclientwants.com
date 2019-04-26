@@ -43,7 +43,7 @@
             <h4 class="jumplinks__title">Get Help with: </h4>
             <ul class="jumplinks__links">
                 {% for section in resources %}
-                <li><a href="#{{ section.id }}">{{ section.navLink }}</a></li>
+                <li><a href="#{{ section.id }}">{{ section.navLink }} ({{section.items | size }})</a></li>
                 {% endfor %}
             </ul>
         </nav>
