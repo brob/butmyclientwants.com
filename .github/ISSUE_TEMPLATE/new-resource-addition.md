@@ -17,3 +17,5 @@ assignees: ''
 
 
 ## Description (just a couple sentences)
+
+## Type (tutorial, tool, article, video)
