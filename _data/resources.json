@@ -96,6 +96,50 @@
         ]
     },
     {
+        "id": "api",
+        "title": "Integrating with APIs",
+        "navLink": "Integrating with APIs",
+        "description": "Third-party APIs are a way of life in the agency world. Not being able to keep your secret keys safe can be an issue of static sites. How do you integrate with third parties safely in the JAMstack?",
+        "items": [
+            {
+                "title": "Using Eleventy's JavaScript Data Files",
+                "author": "Bryan Robinson",
+                "url": "https://bryanlrobinson.com/blog/2019/04/02/using-eleventys-javascript-data-files/",
+                "description": "Sometimes a client wants to have their next events listed on their website without managing the data in two places. This tutorial shows you how to integrate Meetup.com's API with a site using the 11ty SSG.",
+                "tags": [
+                    "Tutorial"
+                ]
+            },
+            {
+                "title": "Keeping a JAMstack site feeling fresh with recent tweets",
+                "author": "Phil Hawksworth",
+                "url": "https://www.hawksworx.com/blog/keeping-a-jamstack-site-feeling-fresh-with-recent-tweets/",
+                "description": "Having somewhere on your site to show a few of your recent tweets is a common requirement. Twitter provides some easy ways to embed tweets or twitter feeds onto your site via Javascript, but I'm keen to remove external javascript dependencies from my site. It helps the site to render more quickly, and lets me control exactly how it looks.",
+                "tags": [
+                    "Tutorial"
+                ]
+            },
+            {
+                "title": "Adding search to your static JAMStack site",
+                "author": "Vojtech Ruzicka",
+                "url": "https://www.vojtechruzicka.com/jamstack-search-algolia/",
+                "description": "A primer on how you can adapt Search functionality to your static site ",
+                "tags": [
+                    "Tutorial"
+                ]
+            },
+            {
+                "title": "Adding Search to a JAMStack site",
+                "author": "Phil Hawksworth",
+                "url": "https://www.hawksworx.com/blog/adding-search-to-a-jamstack-site/",
+                "description": "Search is often cited as a limitation of static sites. Searching feels dynamic, so surely it is impossible on a static site, right? Thankfully not. Here is a nice technique to use with most any static site generator and a little JavaScript as a progressive enhancement to add search functionality to your JAMstack site.",
+                "tags": [
+                    "Tutorial"
+                ]
+            }
+        ]
+    },
+    {
         "id": "ecommerce",
         "title": "E-Commerce",
         "navLink": "E-Commerce",
@@ -170,50 +214,6 @@
                 "author": "storyblok team",
                 "url": "https://www.storyblok.com/tp/headless-cms-comment-system",
                 "description": "We get asked about how one would add a comment system to their headless CMS. during this article, you will learn about the options you can follow including one introduced to me (I read his blog after got spammed on Twitter about it) by the awesome Phil Hawksworth. ",
-                "tags": [
-                    "Tutorial"
-                ]
-            }
-        ]
-    },
-    {
-        "id": "api",
-        "title": "Integrating with APIs",
-        "navLink": "Integrating with APIs",
-        "description": "Third-party APIs are a way of life in the agency world. Not being able to keep your secret keys safe can be an issue of static sites. How do you integrate with third parties safely in the JAMstack?",
-        "items": [
-            {
-                "title": "Using Eleventy's JavaScript Data Files",
-                "author": "Bryan Robinson",
-                "url": "https://bryanlrobinson.com/blog/2019/04/02/using-eleventys-javascript-data-files/",
-                "description": "Sometimes a client wants to have their next events listed on their website without managing the data in two places. This tutorial shows you how to integrate Meetup.com's API with a site using the 11ty SSG.",
-                "tags": [
-                    "Tutorial"
-                ]
-            },
-            {
-                "title": "Keeping a JAMstack site feeling fresh with recent tweets",
-                "author": "Phil Hawksworth",
-                "url": "https://www.hawksworx.com/blog/keeping-a-jamstack-site-feeling-fresh-with-recent-tweets/",
-                "description": "Having somewhere on your site to show a few of your recent tweets is a common requirement. Twitter provides some easy ways to embed tweets or twitter feeds onto your site via Javascript, but I'm keen to remove external javascript dependencies from my site. It helps the site to render more quickly, and lets me control exactly how it looks.",
-                "tags": [
-                    "Tutorial"
-                ]
-            },
-            {
-                "title": "Adding search to your static JAMStack site",
-                "author": "Vojtech Ruzicka",
-                "url": "https://www.vojtechruzicka.com/jamstack-search-algolia/",
-                "description": "A primer on how you can adapt Search functionality to your static site ",
-                "tags": [
-                    "Tutorial"
-                ]
-            },
-            {
-                "title": "Adding Search to a JAMStack site",
-                "author": "Phil Hawksworth",
-                "url": "https://www.hawksworx.com/blog/adding-search-to-a-jamstack-site/",
-                "description": "Search is often cited as a limitation of static sites. Searching feels dynamic, so surely it is impossible on a static site, right? Thankfully not. Here is a nice technique to use with most any static site generator and a little JavaScript as a progressive enhancement to add search functionality to your JAMstack site.",
                 "tags": [
                     "Tutorial"
                 ]
