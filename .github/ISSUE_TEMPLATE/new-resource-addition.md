@@ -9,12 +9,9 @@ assignees: ''
 
 ## Title
 
-
 ## Author
 
-
 ## URL
-
 
 ## Description (just a couple sentences)
 
