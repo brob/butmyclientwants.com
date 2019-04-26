@@ -1,0 +1,23 @@
+{
+  "sections": [
+    {
+      "id": "testing",
+      "title": "Testing the CMS",
+      "navLink": "This is a CMS",
+      "description": "lorem ipsum dolor amet sm",
+      "items": [
+        {
+          "title": "This is a link",
+          "author": "bryan",
+          "url": "#",
+          "description": "This is a link",
+          "tags": [
+            {
+              "undefined": "tag"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
