@@ -89,16 +89,16 @@
 
             {
                 "title": "NetlifyCMS",
-                "url": "https://www.netlifycms.org/",
-                "description": "Official site for the open source static site CMS called NetlifyCMS.",
+                "url": "https://www.netlifycms.org/docs/intro/",
+                "description": "Official guide for the open source static site CMS called NetlifyCMS.",
                 "tags": [
                     "tool"
                 ]
             },
             {
-                "title": "Forestry CMS",
-                "url": "https://forestry.io/",
-                "description": "Official site for static site CMS Forestry",
+                "title": "Forestry CMS Quickstart Guide",
+                "url": "https://forestry.io/docs/quickstart/setup-site/",
+                "description": "Official startup guide for static site CMS Forestry",
                 "tags": [
                     "Tool"
                 ]
