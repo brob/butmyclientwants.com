@@ -1,0 +1,34 @@
+backend:
+  name: git-gateway
+
+
+collections:
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Resources"
+        name: "resources"
+        file: "_data/resources.json"
+        fields: 
+          - label: "Resource Section"
+            name: "sections"
+            widget: "list"
+            fields:
+              - { label: "id", name: "id", widget: "string"}
+              - { label: "Title", name: "title", widget: "string"}
+              - { label: "Nav Link Title", name: "navLink", widget: "string"}
+              - { label: "Description", name: "description", widget: "markdown"}
+              - label: "Resources"
+                name: "items"
+                widget: "list"
+                fields: 
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Author", name: "author", require: "false", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+                  - label: "Tags"
+                    name: "tags"
+                    widget: "list"
+                    fields: 
+                      - { label: "Tagname", widget: "string" }
+media_folder: "assets/images" # Media files will be stored in the repo under images/uploads
