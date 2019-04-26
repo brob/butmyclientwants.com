@@ -177,7 +177,16 @@
                 "title": "Using Eleventy's JavaScript Data Files",
                 "author": "Bryan Robinson",
                 "url": "https://bryanlrobinson.com/blog/2019/04/02/using-eleventys-javascript-data-files/",
-                "description": "Integrating Meetup's API with an 11ty JavaScript Data file.",
+                "description": "Sometimes a client wants to have their next events listed on their website without managing the data in two places. This tutorial shows you how to integrate Meetup.com's API with a site using the 11ty SSG.",
+                "tags": [
+                    "Tutorial"
+                ]
+            },
+            {
+                "title": "Keeping a JAMstack site feeling fresh with recent tweets",
+                "author": "Phil Hawksworth",
+                "url": "https://www.hawksworx.com/blog/keeping-a-jamstack-site-feeling-fresh-with-recent-tweets/",
+                "description": "Having somewhere on your site to show a few of your recent tweets is a common requirement. Twitter provides some easy ways to embed tweets or twitter feeds onto your site via Javascript, but I'm keen to remove external javascript dependencies from my site. It helps the site to render more quickly, and lets me control exactly how it looks.",
                 "tags": [
                     "Tutorial"
                 ]
