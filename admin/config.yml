@@ -8,7 +8,7 @@ collections:
     files:
       - label: "Resources"
         name: "resources"
-        file: "_data/resources.json"
+        file: "_data/resources-cms.json"
         fields: 
           - label: "Resource Section"
             name: "sections"
