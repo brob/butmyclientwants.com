@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>But My Client Wants</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500" rel="stylesheet">
+
+
+
+    <meta name="twitter:card" content="summary" />
+
+    <meta name="twitter:title" content="But My Client Wants ..." />
+    <meta name="twitter:image" content="https://myclientwants.com/assets/images/twitter-card.png">
+
+    <meta name="description" content="The JAMstack, static site, serverless revolution has started. A lot of people
+    working with clients think they can't use this amazing new architecture because their clients want very
+    specific things. This site is meant to help you solve your clients' needs while getting to use the JAMstack!">
+    <meta name="twitter:description" content="The JAMstack, static site, serverless revolution has started. A lot of people
+    working with clients think they can't use this amazing new architecture because their clients want very
+    specific things. This site is meant to help you solve your clients' needs while getting to use the JAMstack!" />
+
+</head>
+
+<body>
+    <section class="utility">
+        <ul class="utility__items">
+            <li><a href="https://jamstack.org/">What is the JAMstack?</a></li>
+            <li><a href="https://github.com/brob/butmyclientwants.com">+ Suggest a Resource</a></li>
+        </ul>
+    </section>
+    <header class="banner">
+        <h1 class="banner__title">But My Client Wants...</h1>
+        <h2 class="banner__headline">Work at an agency or as a freelancer and want to use the JAMstack?</h2>
+        <p class="banner__description">The JAMstack, static site, serverless revolution has started. A lot of people
+            working with clients think they can't use this amazing new architecture because their clients want very
+            specific things. This site is meant to help you solve your clients' needs while getting to use the JAMstack!
+        </p>
+        <nav class="banner__nav jumplinks">
+            <h4 class="jumplinks__title">Get Help with: </h4>
+            <ul class="jumplinks__links">
+                {% for section in resources %}
+                <li><a href="#{{ section.id }}">{{ section.navLink }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+
+    </header>
+    <main class="sections">
+
+        {% for section in resources %}
+        <section class="section" id="{{ section.id }}">
+            <h2>{{ section.title }}</h2>
+            <p>{{ section.description }}</p>
+            <ul class="section__list">
+                {% for resource in section.items %}
+                <li class="card">
+                    <a href="{{ resource.url }}" class="card__title">{{ resource.title }}</a>
+                    {% if resource.author %}<cite class="card__author">By {{ resource.author }}</cite>{% endif %}
+                    <p class="card__description">{{ resource.description }}</p>
+                    {% if resource.tags %}
+                    <footer class="card__tags">
+                        {% for tag in resource.tags %}
+                        <div class="tag">{{ tag }}</div>
+                        {% endfor %}
+                    </footer>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endfor %}
+
+    </main>
+
+
+
+
+    <footer class="footer">
+        Made with love by <a href="https://bryanlrobinson.com">Bryan Robinson</a> | Hosted on <a
+            href="https://netlify.com">Netlify</a>
+    </footer>
+</body>
+
+</html>

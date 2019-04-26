@@ -1,0 +1,21 @@
+{
+  "name": "myclientwants.com",
+  "version": "1.0.0",
+  "description": "A site dedicated to removing the stima of \"Static sites\" in the Agency/freelance world. This site is provides resources for developers and designers in agencies or doing freelance for JAMstack sites.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brob/butmyclientwants.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brob/butmyclientwants.com/issues"
+  },
+  "homepage": "https://github.com/brob/butmyclientwants.com#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.8.2"
+  }
+}
