@@ -79,6 +79,33 @@
                 ]
             },
             {
+                "title": "How to Leverage GraphQL with a Headless CMS [Takeshape Tutorial]",
+                "author": "Charles Ouellet",
+                "url": "https://snipcart.com/blog/headless-cms-graphql-takeshape-tutorial",
+                "description": "More and more headless CMS are adopting GraphQL as a built-in feature. Learn why they are made for each other and how GraphQL brings tools like Takeshape to the next level.",
+                "tags": [
+                    "Tutorial"
+                ]
+            },
+            {
+                "title": "Hands on with Publii, a Free Static CMS Generating HTML Sites",
+                "author": "Franck LN",
+                "url": "https://medium.com/swlh/hands-on-with-publii-a-free-static-cms-generating-html-sites-9fe30e1453fe",
+                "description": "Meet Publii, an open-source, static CMS & HTML site generator. Included: key features overview + A-Z tutorial on publishing a live site with Publii & Netlify [demo included].",
+                "tags": [
+                    "Tutorial"
+                ]
+            },
+            {
+                "title": "Exploring Netlify CMS, a React & Git-Based Content Management System",
+                "author": "Maxime Laboissonnière",
+                "url": "https://medium.freecodecamp.org/exploring-netlify-cms-a-react-git-based-content-management-system-c8d58e438c99",
+                "description": "Discover how Netlify CMS, an open source React JS app, enables Git-based content management for developers & non-technical editors alike.",
+                "tags": [
+                    "Tutorial"
+                ]
+            },
+            {
                 "title": "Site Leaf CMS",
                 "url": "https://www.siteleaf.com/",
                 "description": "Official site for a static site CMS called Site Leaf",
@@ -190,6 +217,24 @@
                 "tags": [
                     "Tutorial"
                 ]
+            },
+            {
+                "title": "E-Commerce for React Developers [w/ Gatsby Tutorial]",
+                "author": "Maxime Laboissonnière",
+                "url": "https://snipcart.com/blog/react-ecommerce-gatsby-tutorial",
+                "description": "Thinking of using React for e-commerce? Start here. We cover the framework's pros/cons + React-powered e-commerce solutions. Also included: full tutorial on how to build a Gatsby-powered store!",
+                "tags": [
+                    "Tutorial"
+                ]
+            },
+            {
+                "title": "A Developer's Guide to Headless E-Commerce",
+                "author": "Mathieu Dionne",
+                "url": "https://snipcart.com/blog/headless-ecommerce-guide",
+                "description": "Read this to post to learn everything there is to know about headless e-commerce. We've built this developer guide to explain the differences between traditional platforms and headless CMS, and the benefits of the latter. Includes comprehensive lists of tools, tutorials and frontend solutions.",
+                "tags": [
+                    "Article"
+                ]
             }
         ]
     },
@@ -245,7 +290,26 @@
                 "tags": [
                     "Tutorial"
                 ]
+            },
+            {
+                "title": "How to use Staticman to add dynamic content to a static website — fast",
+                "author": "Jean-Sébastien Tremblay",
+                "url": "https://medium.freecodecamp.org/staticman-add-dynamic-content-to-a-static-website-fast-557008ce7d47",
+                "description": "Staticman helps you bring user-generated content to static sites. See how it will improve your website versus third-party services and how it gives you back complete control over your dynamic content. We'll also show you how to integrate Staticman to Jekyll for user comments and product reviews.",
+                "tags": [
+                    "Tutorial"
+                ]
+            },
+            {
+                "title": "Forms, Auth and Serverless Functions on Gatsby and Netlify",
+                "author": "Maxime Laboissonnière",
+                "url": "https://css-tricks.com/forms-auth-and-serverless-functions-on-gatsby-and-netlify/",
+                "description": "Supercharge your static site with forms, password-protected authentication, and AWS Lambda functions. This tutorial explores powerful Netlify features on top of a Gatsby site [w/ live demo & code repo].",
+                "tags": [
+                    "Tutorial"
+                ]
             }
+            
         ]
     }
 ]
