@@ -311,5 +311,39 @@
             }
             
         ]
+    },
+    {
+        "id": "themes",
+        "title": "Themes",
+        "navLink": "Themes",
+        "description": "If you're coming from client work in WordPress, you probably are familiar with how easy themes can make your life. You don't need to give up on themes just because you went static!",
+        "items": [
+            {
+                "title": "Jekyll Themes – a curated directory",
+                "author": "Mike Harmer",
+                "url": "https://jekyllthemes.io",
+                "description": "Find the best theme for your next project from the most comprehensive, supportive and active Jekyll themes and templates website.",
+                "tags": [
+                    "Themes"
+                ]
+            },
+            {
+                "title": "Hugo Themes (from UICardio)",
+                "url": "https://uicard.io/hugo-themes",
+                "description": "A collection of 'Freemium' themes for use with the Hugo Static Site Generator.",
+                "tags": [
+                    "Themes"
+                ]
+            },            
+            {
+                "title": "Zerostatic",
+                "url": "https://www.zerostatic.io/",
+                "description": "A collection of free and paid themes for Hugo, Jekyll and Gatsby static site generators.",
+                "tags": [
+                    "Themes"
+                ]
+            }
+            
+        ]
     }
 ]
