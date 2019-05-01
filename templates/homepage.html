@@ -42,7 +42,7 @@
         <nav class="banner__nav jumplinks">
             <h4 class="jumplinks__title">Get Help with: </h4>
             <ul class="jumplinks__links">
-                {% for section in resources %}
+                {% for section in resources.sections %}
                 <li><a href="#{{ section.id }}">{{ section.navLink }} ({{section.items | size }})</a></li>
                 {% endfor %}
             </ul>
@@ -51,7 +51,7 @@
     </header>
     <main class="sections">
 
-        {% for section in resources %}
+        {% for section in resources.sections %}
         <section class="section" id="{{ section.id }}">
             <h2>{{ section.title }}</h2>
             <p>{{ section.description }}</p>
@@ -59,7 +59,7 @@
                 {% for resource in section.items %}
                 <li class="card">
                     <a href="{{ resource.url }}" class="card__title">{{ resource.title }}</a>
-                    {% if resource.author %}<cite class="card__author">By {{ resource.author }}</cite>{% endif %}
+                    {% if resource.author != "" and resource.author %}<cite class="card__author">By {{ resource.author }}</cite>{% endif %}
                     <p class="card__description">{{ resource.description }}</p>
                     {% if resource.tags %}
                     <footer class="card__tags">

@@ -1,349 +1,348 @@
-[
-    {
+{
+    "sections": [
+      {
         "id": "forms",
         "title": "Forms",
         "navLink": "Forms",
         "description": "The very basics of interactivity on the web. Most clients will want at least a small contact form. How can we provide that without controlling our server?",
         "items": [
-            {
-                "title": "Form Handling with the JAMstack and Netlify",
-                "author": "Brian Rinaldi",
-                "url": "https://www.netlify.com/blog/2017/09/19/form-handling-with-the-jamstack-and-netlify/",
-                "description": "One of the first questions I typically hear from anyone considering using the JAMstack is: how would you handle a basic requirement such as form submissions without server-side code?",
-                "tags": [
-                    "Tutorial"
-                ]
-            },
-            {
-                "title": "Building A Serverless Contact Form For Your Static Site",
-                "author": "Brian Holt",
-                "url": "https://www.smashingmagazine.com/2018/05/building-serverless-contact-form-static-website/",
-                "description": "With the help of this article, you will finally be able to learn the basics of Amazon Web Services (AWS) Lambda and Simple Email Service (SES) APIs to help you build your own static site mailer on the Serverless Framework. Let’s get started!",
-                "tags": [
-                    "Tutorial"
-                ]
-            },
-            {
-                "title": "Quick Tip: Add a Formspree Form to Your Static Sites",
-                "author": "David Darnes",
-                "url": "https://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-static-sites--cms-23870",
-                "description": "In this tutorial we’re going to look at a hassle-free way of adding dynamic, flexible forms to your static websites.",
-                "tags": [
-                    "Tutorial"
-                ]
-            },
-            {
-                "title": "Another Form Processor Option - LiveForm",
-                "author": "Raymond Camden",
-                "url": "https://www.raymondcamden.com/2017/06/23/another-form-processor-option-liveform",
-                "description": "As a proponent of static site generators, one of the things I keep an eye out for are services that work well with them and provide functionality you lose after going static. Probably the most important of these are form handlers. Just being able to build a simple contact form can be incredibly helpful. On my site I use Formspree and in the past I’ve used FormKeep. Today I’m going to quickly review another new service, LiveForm.",
-                "tags": [
-                    "Article",
-                    "Tool"
-                ]
-            }
+          {
+            "title": "Form Handling with the JAMstack and Netlify",
+            "author": "Brian Rinaldi",
+            "url": "https://www.netlify.com/blog/2017/09/19/form-handling-with-the-jamstack-and-netlify/",
+            "description": "One of the first questions I typically hear from anyone considering using the JAMstack is: how would you handle a basic requirement such as form submissions without server-side code?",
+            "tags": [
+              "Tutorial"
+            ]
+          },
+          {
+            "title": "Building A Serverless Contact Form For Your Static Site",
+            "author": "Brian Holt",
+            "url": "https://www.smashingmagazine.com/2018/05/building-serverless-contact-form-static-website/",
+            "description": "With the help of this article, you will finally be able to learn the basics of Amazon Web Services (AWS) Lambda and Simple Email Service (SES) APIs to help you build your own static site mailer on the Serverless Framework. Let’s get started!",
+            "tags": [
+              "Tutorial"
+            ]
+          },
+          {
+            "title": "Quick Tip: Add a Formspree Form to Your Static Sites",
+            "author": "David Darnes",
+            "url": "https://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-static-sites--cms-23870",
+            "description": "In this tutorial we’re going to look at a hassle-free way of adding dynamic, flexible forms to your static websites.",
+            "tags": [
+              "Tutorial"
+            ]
+          },
+          {
+            "title": "Another Form Processor Option - LiveForm",
+            "author": "Raymond Camden",
+            "url": "https://www.raymondcamden.com/2017/06/23/another-form-processor-option-liveform",
+            "description": "As a proponent of static site generators, one of the things I keep an eye out for are services that work well with them and provide functionality you lose after going static. Probably the most important of these are form handlers. Just being able to build a simple contact form can be incredibly helpful. On my site I use Formspree and in the past I’ve used FormKeep. Today I’m going to quickly review another new service, LiveForm.",
+            "tags": [
+              "Article",
+              "Tool"
+            ]
+          }
         ]
-    },
-    {
+      },
+      {
         "id": "cms",
         "title": "A CMS",
         "navLink": "Content Management",
         "description": "Most of the time, we don't want to have to make simple content changes for clients. Most of the time, clients want to make the changes for themselves. How can we make a CMS-powered static site?",
         "items": [
-            {
-                "title": "Not a WordPress Fan? Here are 5 of the Best Static Website CMS for You",
-                "author": "Ayo Isaiah",
-                "url": "https://www.maketecheasier.com/best-static-website-cms/",
-                "description": "Typically, updates to a static website can be tedious, which is why some folks are put off from using these solutions. This is where a static website CMS can come in.",
-                "tags": [
-                    "Article"
-                ]
-            },
-            {
-                "title": "CMS-functionality for static site generators",
-                "author": "Contentful",
-                "url": "https://www.contentful.com/r/knowledgebase/contentful-api-cms-static-site-generators/",
-                "description": "More and more developers are jumping on the 'go static train', and rightfully so. Static pages are fast, lightweight, they scale well. They are more secure and simple to maintain, allowing you to focus all your time and effort on the user interface. Often times, this dedication really shows.",
-                "tags": [
-                    "Article"
-                ]
-            },
-            {
-                "title": "Video: Integrating 11ty with NetlifyCMS",
-                "author": "",
-                "url": "https://www.youtube.com/watch?v=dS4IWTITNQM&list=PLOSLUtJ_J3roi5Eb3v-SkUV3nfGIyc_LF&index=3",
-                "description": "In part 3 of my series on Eleventy (11ty), we'll cover hooking a simple, open source CMS into the site to allow for quick editing on the fly!",
-                "tags": [
-                    "Video",
-                    "Tutorial"
-                ]
-            },
-            {
-                "title": "How to Leverage GraphQL with a Headless CMS [Takeshape Tutorial]",
-                "author": "Charles Ouellet",
-                "url": "https://snipcart.com/blog/headless-cms-graphql-takeshape-tutorial",
-                "description": "More and more headless CMS are adopting GraphQL as a built-in feature. Learn why they are made for each other and how GraphQL brings tools like Takeshape to the next level.",
-                "tags": [
-                    "Tutorial"
-                ]
-            },
-            {
-                "title": "Hands on with Publii, a Free Static CMS Generating HTML Sites",
-                "author": "Franck LN",
-                "url": "https://medium.com/swlh/hands-on-with-publii-a-free-static-cms-generating-html-sites-9fe30e1453fe",
-                "description": "Meet Publii, an open-source, static CMS & HTML site generator. Included: key features overview + A-Z tutorial on publishing a live site with Publii & Netlify [demo included].",
-                "tags": [
-                    "Tutorial"
-                ]
-            },
-            {
-                "title": "Exploring Netlify CMS, a React & Git-Based Content Management System",
-                "author": "Maxime Laboissonnière",
-                "url": "https://medium.freecodecamp.org/exploring-netlify-cms-a-react-git-based-content-management-system-c8d58e438c99",
-                "description": "Discover how Netlify CMS, an open source React JS app, enables Git-based content management for developers & non-technical editors alike.",
-                "tags": [
-                    "Tutorial"
-                ]
-            },
-            {
-                "title": "Site Leaf CMS",
-                "url": "https://www.siteleaf.com/",
-                "description": "Official site for a static site CMS called Site Leaf",
-                "tags": [
-                    "tool"
-                ]
-            },
-
-            {
-                "title": "NetlifyCMS",
-                "url": "https://www.netlifycms.org/docs/intro/",
-                "description": "Official guide for the open source static site CMS called NetlifyCMS.",
-                "tags": [
-                    "tool"
-                ]
-            },
-            {
-                "title": "Forestry CMS Quickstart Guide",
-                "url": "https://forestry.io/docs/quickstart/setup-site/",
-                "description": "Official startup guide for static site CMS Forestry",
-                "tags": [
-                    "Tool"
-                ]
-            }
+          {
+            "title": "Not a WordPress Fan? Here are 5 of the Best Static Website CMS for You",
+            "author": "Ayo Isaiah",
+            "url": "https://www.maketecheasier.com/best-static-website-cms/",
+            "description": "Typically, updates to a static website can be tedious, which is why some folks are put off from using these solutions. This is where a static website CMS can come in.",
+            "tags": [
+              "Article"
+            ]
+          },
+          {
+            "title": "CMS-functionality for static site generators",
+            "author": "Contentful",
+            "url": "https://www.contentful.com/r/knowledgebase/contentful-api-cms-static-site-generators/",
+            "description": "More and more developers are jumping on the 'go static train', and rightfully so. Static pages are fast, lightweight, they scale well. They are more secure and simple to maintain, allowing you to focus all your time and effort on the user interface. Often times, this dedication really shows.",
+            "tags": [
+              "Article"
+            ]
+          },
+          {
+            "title": "Video: Integrating 11ty with NetlifyCMS",
+            "author": "",
+            "url": "https://www.youtube.com/watch?v=dS4IWTITNQM&list=PLOSLUtJ_J3roi5Eb3v-SkUV3nfGIyc_LF&index=3",
+            "description": "In part 3 of my series on Eleventy (11ty), we'll cover hooking a simple, open source CMS into the site to allow for quick editing on the fly!",
+            "tags": [
+              "Video",
+              "Tutorial"
+            ]
+          },
+          {
+            "title": "How to Leverage GraphQL with a Headless CMS [Takeshape Tutorial]",
+            "author": "Charles Ouellet",
+            "url": "https://snipcart.com/blog/headless-cms-graphql-takeshape-tutorial",
+            "description": "More and more headless CMS are adopting GraphQL as a built-in feature. Learn why they are made for each other and how GraphQL brings tools like Takeshape to the next level.",
+            "tags": [
+              "Tutorial"
+            ]
+          },
+          {
+            "title": "Hands on with Publii, a Free Static CMS Generating HTML Sites",
+            "author": "Franck LN",
+            "url": "https://medium.com/swlh/hands-on-with-publii-a-free-static-cms-generating-html-sites-9fe30e1453fe",
+            "description": "Meet Publii, an open-source, static CMS & HTML site generator. Included: key features overview + A-Z tutorial on publishing a live site with Publii & Netlify [demo included].",
+            "tags": [
+              "Tutorial"
+            ]
+          },
+          {
+            "title": "Exploring Netlify CMS, a React & Git-Based Content Management System",
+            "author": "Maxime Laboissonnière",
+            "url": "https://medium.freecodecamp.org/exploring-netlify-cms-a-react-git-based-content-management-system-c8d58e438c99",
+            "description": "Discover how Netlify CMS, an open source React JS app, enables Git-based content management for developers & non-technical editors alike.",
+            "tags": [
+              "Tutorial"
+            ]
+          },
+          {
+            "title": "Site Leaf CMS",
+            "url": "https://www.siteleaf.com/",
+            "description": "Official site for a static site CMS called Site Leaf",
+            "tags": [
+              "tool"
+            ]
+          },
+          {
+            "title": "NetlifyCMS",
+            "url": "https://www.netlifycms.org/docs/intro/",
+            "description": "Official guide for the open source static site CMS called NetlifyCMS.",
+            "tags": [
+              "tool"
+            ]
+          },
+          {
+            "title": "Forestry CMS Quickstart Guide",
+            "url": "https://forestry.io/docs/quickstart/setup-site/",
+            "description": "Official startup guide for static site CMS Forestry",
+            "tags": [
+              "Tool"
+            ]
+          }
         ]
-    },
-    {
+      },
+      {
         "id": "api",
         "title": "Integrating with APIs",
         "navLink": "Integrating with APIs",
         "description": "Third-party APIs are a way of life in the agency world. Not being able to keep your secret keys safe can be an issue of static sites. How do you integrate with third parties safely in the JAMstack?",
         "items": [
-            {
-                "title": "Using Eleventy's JavaScript Data Files",
-                "author": "Bryan Robinson",
-                "url": "https://bryanlrobinson.com/blog/2019/04/02/using-eleventys-javascript-data-files/",
-                "description": "Sometimes a client wants to have their next events listed on their website without managing the data in two places. This tutorial shows you how to integrate Meetup.com's API with a site using the 11ty SSG.",
-                "tags": [
-                    "Tutorial"
-                ]
-            },
-            {
-                "title": "Keeping a JAMstack site feeling fresh with recent tweets",
-                "author": "Phil Hawksworth",
-                "url": "https://www.hawksworx.com/blog/keeping-a-jamstack-site-feeling-fresh-with-recent-tweets/",
-                "description": "Having somewhere on your site to show a few of your recent tweets is a common requirement. Twitter provides some easy ways to embed tweets or twitter feeds onto your site via Javascript, but I'm keen to remove external javascript dependencies from my site. It helps the site to render more quickly, and lets me control exactly how it looks.",
-                "tags": [
-                    "Tutorial"
-                ]
-            },
-            {
-                "title": "Adding search to your static JAMStack site",
-                "author": "Vojtech Ruzicka",
-                "url": "https://www.vojtechruzicka.com/jamstack-search-algolia/",
-                "description": "A primer on how you can adapt Search functionality to your static site ",
-                "tags": [
-                    "Tutorial"
-                ]
-            },
-            {
-                "title": "Adding Search to a JAMStack site",
-                "author": "Phil Hawksworth",
-                "url": "https://www.hawksworx.com/blog/adding-search-to-a-jamstack-site/",
-                "description": "Search is often cited as a limitation of static sites. Searching feels dynamic, so surely it is impossible on a static site, right? Thankfully not. Here is a nice technique to use with most any static site generator and a little JavaScript as a progressive enhancement to add search functionality to your JAMstack site.",
-                "tags": [
-                    "Tutorial"
-                ]
-            },
-            {
-                "title": "Adding Your YouTube Videos to Your Static Site on Netlify",
-                "author": "Raymond Camden",
-                "url": "https://www.raymondcamden.com/2018/08/08/adding-your-youtube-videos-to-your-static-site-on-netlify",
-                "description": "Earlier this month I wrote up a blog post demonstrating how to use client-side JavaScript to render a list of your YouTube videos on your site (“Adding Your YouTube Videos to Your Static Site with Vue.js”). This works well and didn’t use any “fancy” JavaScript that would be problematic for older browser (ok technically fetch is a bit modern but you could have replaced that with any other HTTP call) but I was curious to see if there was a way to do within my static site built with Jekyll.",
-                "tags": [
-                    "Tutorial"
-                ]
-            }
+          {
+            "title": "Using Eleventy's JavaScript Data Files",
+            "author": "Bryan Robinson",
+            "url": "https://bryanlrobinson.com/blog/2019/04/02/using-eleventys-javascript-data-files/",
+            "description": "Sometimes a client wants to have their next events listed on their website without managing the data in two places. This tutorial shows you how to integrate Meetup.com's API with a site using the 11ty SSG.",
+            "tags": [
+              "Tutorial"
+            ]
+          },
+          {
+            "title": "Keeping a JAMstack site feeling fresh with recent tweets",
+            "author": "Phil Hawksworth",
+            "url": "https://www.hawksworx.com/blog/keeping-a-jamstack-site-feeling-fresh-with-recent-tweets/",
+            "description": "Having somewhere on your site to show a few of your recent tweets is a common requirement. Twitter provides some easy ways to embed tweets or twitter feeds onto your site via Javascript, but I'm keen to remove external javascript dependencies from my site. It helps the site to render more quickly, and lets me control exactly how it looks.",
+            "tags": [
+              "Tutorial"
+            ]
+          },
+          {
+            "title": "Adding search to your static JAMStack site",
+            "author": "Vojtech Ruzicka",
+            "url": "https://www.vojtechruzicka.com/jamstack-search-algolia/",
+            "description": "A primer on how you can adapt Search functionality to your static site ",
+            "tags": [
+              "Tutorial"
+            ]
+          },
+          {
+            "title": "Adding Search to a JAMStack site",
+            "author": "Phil Hawksworth",
+            "url": "https://www.hawksworx.com/blog/adding-search-to-a-jamstack-site/",
+            "description": "Search is often cited as a limitation of static sites. Searching feels dynamic, so surely it is impossible on a static site, right? Thankfully not. Here is a nice technique to use with most any static site generator and a little JavaScript as a progressive enhancement to add search functionality to your JAMstack site.",
+            "tags": [
+              "Tutorial"
+            ]
+          },
+          {
+            "title": "Adding Your YouTube Videos to Your Static Site on Netlify",
+            "author": "Raymond Camden",
+            "url": "https://www.raymondcamden.com/2018/08/08/adding-your-youtube-videos-to-your-static-site-on-netlify",
+            "description": "Earlier this month I wrote up a blog post demonstrating how to use client-side JavaScript to render a list of your YouTube videos on your site (“Adding Your YouTube Videos to Your Static Site with Vue.js”). This works well and didn’t use any “fancy” JavaScript that would be problematic for older browser (ok technically fetch is a bit modern but you could have replaced that with any other HTTP call) but I was curious to see if there was a way to do within my static site built with Jekyll.",
+            "tags": [
+              "Tutorial"
+            ]
+          }
         ]
-    },
-    {
+      },
+      {
         "id": "ecommerce",
         "title": "E-Commerce",
         "navLink": "E-Commerce",
         "description": "E-Commerce is the art of making money on the Web. How can we handle all that goes along with e-commerce when we don't have a server?",
         "items": [
-            {
-                "title": "Creating a Vue.js Serverless Checkout Form: Setup and Testing",
-                "author": "Sarah Drasner",
-                "url": "https://css-tricks.com/creating-vue-js-serverless-checkout-part-one/",
-                "description": "There comes a time in any young app’s life when it will have to monetize. There are a number of ways to become profitable, but accepting cash is a surefire way to make this more direct. In this four-part tutorial, we’ll go over how to set up a serverless function, make it talk to the Stripe API, and connect it to a checkout form that is setup as a Vue application. This may sound daunting, but it’s actually pretty straightforward! Let's dig in.",
-                "tags": [
-                    "Tutorial"
-                ]
-            },
-            {
-                "title": "Hugo Tutorial: How to Build & Host a (Very Fast) Static E-Commerce Site",
-                "author": "SnipCart team",
-                "url": "https://snipcart.com/blog/hugo-tutorial-static-site-ecommerce",
-                "description": "Here’s what I’ll do in the tutorial below: Create a Hugo website Add e-commerce functionalities with Snipcart Pair the static site to a CMS (Forestry) Deploy on Netlify",
-                "tags": [
-                    "Tutorial"
-                ]
-            },
-            {
-                "title": "Dynamic product management in a static e-commerce workflow",
-                "author": "Yanick Ouellet",
-                "url": "https://www.contentful.com/blog/2016/02/10/snipcart-middleman-contentful/",
-                "description": "Integrating Middleman, Contentful & Snipcart to create this static e-commerce workflow took me around 4 hours. And I can say for sure that they were well-spent hours: working with these powerful tools was a lot of fun.",
-                "tags": [
-                    "Tutorial"
-                ]
-            },
-            {
-                "title": "E-Commerce for React Developers [w/ Gatsby Tutorial]",
-                "author": "Maxime Laboissonnière",
-                "url": "https://snipcart.com/blog/react-ecommerce-gatsby-tutorial",
-                "description": "Thinking of using React for e-commerce? Start here. We cover the framework's pros/cons + React-powered e-commerce solutions. Also included: full tutorial on how to build a Gatsby-powered store!",
-                "tags": [
-                    "Tutorial"
-                ]
-            },
-            {
-                "title": "A Developer's Guide to Headless E-Commerce",
-                "author": "Mathieu Dionne",
-                "url": "https://snipcart.com/blog/headless-ecommerce-guide",
-                "description": "Read this to post to learn everything there is to know about headless e-commerce. We've built this developer guide to explain the differences between traditional platforms and headless CMS, and the benefits of the latter. Includes comprehensive lists of tools, tutorials and frontend solutions.",
-                "tags": [
-                    "Article"
-                ]
-            }
+          {
+            "title": "Creating a Vue.js Serverless Checkout Form: Setup and Testing",
+            "author": "Sarah Drasner",
+            "url": "https://css-tricks.com/creating-vue-js-serverless-checkout-part-one/",
+            "description": "There comes a time in any young app’s life when it will have to monetize. There are a number of ways to become profitable, but accepting cash is a surefire way to make this more direct. In this four-part tutorial, we’ll go over how to set up a serverless function, make it talk to the Stripe API, and connect it to a checkout form that is setup as a Vue application. This may sound daunting, but it’s actually pretty straightforward! Let's dig in.",
+            "tags": [
+              "Tutorial"
+            ]
+          },
+          {
+            "title": "Hugo Tutorial: How to Build & Host a (Very Fast) Static E-Commerce Site",
+            "author": "SnipCart team",
+            "url": "https://snipcart.com/blog/hugo-tutorial-static-site-ecommerce",
+            "description": "Here’s what I’ll do in the tutorial below: Create a Hugo website Add e-commerce functionalities with Snipcart Pair the static site to a CMS (Forestry) Deploy on Netlify",
+            "tags": [
+              "Tutorial"
+            ]
+          },
+          {
+            "title": "Dynamic product management in a static e-commerce workflow",
+            "author": "Yanick Ouellet",
+            "url": "https://www.contentful.com/blog/2016/02/10/snipcart-middleman-contentful/",
+            "description": "Integrating Middleman, Contentful & Snipcart to create this static e-commerce workflow took me around 4 hours. And I can say for sure that they were well-spent hours: working with these powerful tools was a lot of fun.",
+            "tags": [
+              "Tutorial"
+            ]
+          },
+          {
+            "title": "E-Commerce for React Developers [w/ Gatsby Tutorial]",
+            "author": "Maxime Laboissonnière",
+            "url": "https://snipcart.com/blog/react-ecommerce-gatsby-tutorial",
+            "description": "Thinking of using React for e-commerce? Start here. We cover the framework's pros/cons + React-powered e-commerce solutions. Also included: full tutorial on how to build a Gatsby-powered store!",
+            "tags": [
+              "Tutorial"
+            ]
+          },
+          {
+            "title": "A Developer's Guide to Headless E-Commerce",
+            "author": "Mathieu Dionne",
+            "url": "https://snipcart.com/blog/headless-ecommerce-guide",
+            "description": "Read this to post to learn everything there is to know about headless e-commerce. We've built this developer guide to explain the differences between traditional platforms and headless CMS, and the benefits of the latter. Includes comprehensive lists of tools, tutorials and frontend solutions.",
+            "tags": [
+              "Article"
+            ]
+          }
         ]
-    },
-    {
+      },
+      {
         "id": "ugc",
         "title": "User Generated Content (i.e. comments, etc.)",
         "navLink": "User Generated Content",
         "description": "Dynamic Content on a static site? How can we have users give us additional content, when we can't touch the server?",
         "items": [
-            {
-                "title": "Staticman: User generated content made static",
-                "author": "Vojtech Ruzicka",
-                "url": "https://www.vojtechruzicka.com/staticman/",
-                "description": "A blog post about integrating dynamic data using a service called Staticman",
-                "tags": [
-                    "Tutorial",
-                    "Tool"
-                ]
-            },
-            {
-                "title": "JAMstack Comments",
-                "author": "CSS Tricks",
-                "url": "https://css-tricks.com/jamstack-comments/",
-                "description": "Thanks to the growing ecosystem of tools available for JAMstack sites, there are solutions to comments. Let's look at an example which you could use on your own site ",
-                "tags": [
-                    "Tutorial"
-                ]
-            },
-            {
-                "title": "Dynamic Static Sites with Netlify and iOS Shortcuts",
-                "author": "Bryan Robinson",
-                "url": "https://bryanlrobinson.com/blog/2018/11/12/ios-shortcuts-pushing-data-to-netlify-static-site/",
-                "description": "The challenge: Use iOS's 'Shortcuts' to post dynamic content from a user's phone to the site.",
-                "tags": [
-                    "Tutorial"
-                ]
-            },
-            {
-                "title": "A static site webring demo",
-                "author": "Max Böck",
-                "url": "https://webringdemo.netlify.com/",
-                "description": "This is just a demo of a webring. It could be about anything - Metal Bands, Knitting, Craft Beer, Accessibility... For this one, let's just say it's about the good old 90s.",
-                "tags": [
-                    "Demo",
-                    "Tutorial"
-                ]
-            },
-            {
-                "title": "A comment system for your headless CMS?",
-                "author": "storyblok team",
-                "url": "https://www.storyblok.com/tp/headless-cms-comment-system",
-                "description": "We get asked about how one would add a comment system to their headless CMS. during this article, you will learn about the options you can follow including one introduced to me (I read his blog after got spammed on Twitter about it) by the awesome Phil Hawksworth. ",
-                "tags": [
-                    "Tutorial"
-                ]
-            },
-            {
-                "title": "How to use Staticman to add dynamic content to a static website — fast",
-                "author": "Jean-Sébastien Tremblay",
-                "url": "https://medium.freecodecamp.org/staticman-add-dynamic-content-to-a-static-website-fast-557008ce7d47",
-                "description": "Staticman helps you bring user-generated content to static sites. See how it will improve your website versus third-party services and how it gives you back complete control over your dynamic content. We'll also show you how to integrate Staticman to Jekyll for user comments and product reviews.",
-                "tags": [
-                    "Tutorial"
-                ]
-            },
-            {
-                "title": "Forms, Auth and Serverless Functions on Gatsby and Netlify",
-                "author": "Maxime Laboissonnière",
-                "url": "https://css-tricks.com/forms-auth-and-serverless-functions-on-gatsby-and-netlify/",
-                "description": "Supercharge your static site with forms, password-protected authentication, and AWS Lambda functions. This tutorial explores powerful Netlify features on top of a Gatsby site [w/ live demo & code repo].",
-                "tags": [
-                    "Tutorial"
-                ]
-            }
-            
+          {
+            "title": "Staticman: User generated content made static",
+            "author": "Vojtech Ruzicka",
+            "url": "https://www.vojtechruzicka.com/staticman/",
+            "description": "A blog post about integrating dynamic data using a service called Staticman",
+            "tags": [
+              "Tutorial",
+              "Tool"
+            ]
+          },
+          {
+            "title": "JAMstack Comments",
+            "author": "CSS Tricks",
+            "url": "https://css-tricks.com/jamstack-comments/",
+            "description": "Thanks to the growing ecosystem of tools available for JAMstack sites, there are solutions to comments. Let's look at an example which you could use on your own site ",
+            "tags": [
+              "Tutorial"
+            ]
+          },
+          {
+            "title": "Dynamic Static Sites with Netlify and iOS Shortcuts",
+            "author": "Bryan Robinson",
+            "url": "https://bryanlrobinson.com/blog/2018/11/12/ios-shortcuts-pushing-data-to-netlify-static-site/",
+            "description": "The challenge: Use iOS's 'Shortcuts' to post dynamic content from a user's phone to the site.",
+            "tags": [
+              "Tutorial"
+            ]
+          },
+          {
+            "title": "A static site webring demo",
+            "author": "Max Böck",
+            "url": "https://webringdemo.netlify.com/",
+            "description": "This is just a demo of a webring. It could be about anything - Metal Bands, Knitting, Craft Beer, Accessibility... For this one, let's just say it's about the good old 90s.",
+            "tags": [
+              "Demo",
+              "Tutorial"
+            ]
+          },
+          {
+            "title": "A comment system for your headless CMS?",
+            "author": "storyblok team",
+            "url": "https://www.storyblok.com/tp/headless-cms-comment-system",
+            "description": "We get asked about how one would add a comment system to their headless CMS. during this article, you will learn about the options you can follow including one introduced to me (I read his blog after got spammed on Twitter about it) by the awesome Phil Hawksworth. ",
+            "tags": [
+              "Tutorial"
+            ]
+          },
+          {
+            "title": "How to use Staticman to add dynamic content to a static website — fast",
+            "author": "Jean-Sébastien Tremblay",
+            "url": "https://medium.freecodecamp.org/staticman-add-dynamic-content-to-a-static-website-fast-557008ce7d47",
+            "description": "Staticman helps you bring user-generated content to static sites. See how it will improve your website versus third-party services and how it gives you back complete control over your dynamic content. We'll also show you how to integrate Staticman to Jekyll for user comments and product reviews.",
+            "tags": [
+              "Tutorial"
+            ]
+          },
+          {
+            "title": "Forms, Auth and Serverless Functions on Gatsby and Netlify",
+            "author": "Maxime Laboissonnière",
+            "url": "https://css-tricks.com/forms-auth-and-serverless-functions-on-gatsby-and-netlify/",
+            "description": "Supercharge your static site with forms, password-protected authentication, and AWS Lambda functions. This tutorial explores powerful Netlify features on top of a Gatsby site [w/ live demo & code repo].",
+            "tags": [
+              "Tutorial"
+            ]
+          }
         ]
-    },
-    {
+      },
+      {
         "id": "themes",
         "title": "Themes",
         "navLink": "Themes",
         "description": "If you're coming from client work in WordPress, you probably are familiar with how easy themes can make your life. You don't need to give up on themes just because you went static!",
         "items": [
-            {
-                "title": "Jekyll Themes – a curated directory",
-                "author": "Mike Harmer",
-                "url": "https://jekyllthemes.io",
-                "description": "Find the best theme for your next project from the most comprehensive, supportive and active Jekyll themes and templates website.",
-                "tags": [
-                    "Themes"
-                ]
-            },
-            {
-                "title": "Hugo Themes (from UICardio)",
-                "url": "https://uicard.io/hugo-themes",
-                "description": "A collection of 'Freemium' themes for use with the Hugo Static Site Generator.",
-                "tags": [
-                    "Themes"
-                ]
-            },            
-            {
-                "title": "Zerostatic",
-                "url": "https://www.zerostatic.io/",
-                "description": "A collection of free and paid themes for Hugo, Jekyll and Gatsby static site generators.",
-                "tags": [
-                    "Themes"
-                ]
-            }
-            
+          {
+            "title": "Jekyll Themes – a curated directory",
+            "author": "Mike Harmer",
+            "url": "https://jekyllthemes.io",
+            "description": "Find the best theme for your next project from the most comprehensive, supportive and active Jekyll themes and templates website.",
+            "tags": [
+              "Themes"
+            ]
+          },
+          {
+            "title": "Hugo Themes (from UICardio)",
+            "url": "https://uicard.io/hugo-themes",
+            "description": "A collection of 'Freemium' themes for use with the Hugo Static Site Generator.",
+            "tags": [
+              "Themes"
+            ]
+          },
+          {
+            "title": "Zerostatic",
+            "url": "https://www.zerostatic.io/",
+            "description": "A collection of free and paid themes for Hugo, Jekyll and Gatsby static site generators.",
+            "tags": [
+              "Themes"
+            ]
+          }
         ]
-    }
-]
+      }
+    ]
+  }
