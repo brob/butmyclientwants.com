@@ -23,12 +23,13 @@ collections:
                 widget: "list"
                 fields: 
                   - { label: "Title", name: "title", widget: "string" }
-                  - { label: "Author", name: "author", require: "false", widget: "string" }
+                  - { label: "Author", name: "author", require: false, widget: "string" }
                   - { label: "URL", name: "url", widget: "string" }
                   - { label: "Description", name: "description", widget: "text" }
                   - label: "Tags"
                     name: "tags"
                     widget: "select"
+                    require: false
                     multiple: true
                     options: ["Tutorial", "Tool", "Article", "Video", "Demo", "Theme(s)"]
 media_folder: "assets/images" # Media files will be stored in the repo under images/uploads
