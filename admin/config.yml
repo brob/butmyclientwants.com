@@ -29,5 +29,6 @@ collections:
                   - label: "Tags"
                     name: "tags"
                     widget: "select"
+                    multiple: true
                     options: ["Tutorial", "Tool", "Article", "Video", "Demo", "Theme(s)"]
 media_folder: "assets/images" # Media files will be stored in the repo under images/uploads
