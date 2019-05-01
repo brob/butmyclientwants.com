@@ -12,9 +12,8 @@
           "url": "#",
           "description": "This is a link",
           "tags": [
-            {
-              "undefined": "tag"
-            }
+            "Tool",
+            "Video"
           ]
         }
       ]
