@@ -84,6 +84,15 @@
           "tags": [
             "Tool"
           ]
+        },
+        {
+          "title": "TakeShape",
+          "author": "TakeShape Inc.",
+          "url": "https://www.takeshape.io/",
+          "description": "TakeShape is a Headless GraphQL CMS and SSG. TakeShape works great with Gatsby.",
+          "tags": [
+            "Tool"
+          ]
         }
       ]
     },
