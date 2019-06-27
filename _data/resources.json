@@ -244,6 +244,34 @@
           "tags": [
             "Article"
           ]
+        },
+        {
+          "title": "Static is the New Dynamic",
+          "author": "Filippo Conforti",
+          "url": "https://commercelayer.io/blog/static-is-the-new-dynamic/",
+          "description": "An opinionated, yet adaptable approach to build enterprise-grade ecommerce, the JAMstack way.\n",
+          "tags": [
+            "Article"
+          ]
+        },
+        {
+          "title": "How to Build an eCommerce Static Site with Jekyll, Contentful, and Commerce Layer",
+          "author": "Filippo Conforti",
+          "url": "https://www.contentful.com/blog/2018/11/07/how-build-static-site-ecommerce-jekyll-contentful-commerce-layer/",
+          "description": "A tutorial on how to build a static site ecommerce with enterprise-level features, mainly focused on site architecture and development workflow. Featuring a multi-country, multi-language online demo shop.\n",
+          "tags": [
+            "Tutorial",
+            "Demo"
+          ]
+        },
+        {
+          "title": "Commerce Layer",
+          "author": "Commerce Layer Team",
+          "url": "https://commercelayer.io/",
+          "description": "Add Enterprise Ecommerce to your JAMstack! Commerce Layer is an API-first commerce platform that lets you easily add enterprise-grade ecommerce functionalities to any website, by using the headless CMS, static site generator, and tools you already master and love.\n",
+          "tags": [
+            "Tool"
+          ]
         }
       ]
     },
