@@ -93,6 +93,15 @@
           "tags": [
             "Tool"
           ]
+        },
+        {
+          "title": "Scheduled and draft 11ty posts",
+          "author": "Remy Sharp",
+          "url": "https://remysharp.com/2019/06/26/scheduled-and-draft-11ty-posts",
+          "description": "This post explains how you can add scheduled publishing to your 11ty blog (with a bonus for drafts).",
+          "tags": [
+            "Tutorial"
+          ]
         }
       ]
     },
