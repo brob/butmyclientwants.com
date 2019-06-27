@@ -378,6 +378,15 @@
           "tags": [
             "Themes"
           ]
+        },
+        {
+          "title": "Hylia 11ty blog theme",
+          "author": "Andy Bell",
+          "url": "https://hyllia.website",
+          "description": "This is a simple, but beautiful blog theme for the static site generator 11ty. It comes with some amazing features like NetlifyCMS, editable design tokens and much much more!",
+          "tags": [
+            "Theme(s)"
+          ]
         }
       ]
     }
