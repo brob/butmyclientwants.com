@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/resources.json
   label: Resources
-  read_only: false
 upload_dir: assets/images
 public_path: "/assets/images"
 front_matter_path: ''
