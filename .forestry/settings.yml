@@ -13,3 +13,10 @@ public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
+build:
+  preview_env:
+  - ELEVENTY_ENV=staging
+  preview_output_directory: _site
+  instant_preview_command: eleventy --serve --output=_site
+  preview_docker_image: node:10
+  mount_path: "/srv"
