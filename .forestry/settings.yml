@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/resources.json
   label: Resources
-  match: "**/*"
   read_only: true
 upload_dir: uploads
 public_path: "/uploads"

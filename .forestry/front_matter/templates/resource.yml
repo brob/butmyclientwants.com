@@ -1,0 +1,39 @@
+---
+label: Resource
+hide_body: true
+fields:
+- type: field_group_list
+  name: sections
+  label: sections
+  fields:
+  - type: text
+    name: id
+    label: id
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: navLink
+    label: navLink
+  - type: textarea
+    name: description
+    label: description
+  - type: field_group_list
+    name: items
+    label: items
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: author
+      label: author
+    - type: text
+      name: url
+      label: url
+    - type: textarea
+      name: description
+      label: description
+    - type: list
+      name: tags
+      label: tags
