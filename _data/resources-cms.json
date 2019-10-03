@@ -192,6 +192,15 @@
       "description": "E-Commerce is the art of making money on the Web. How can we handle all that goes along with e-commerce when we don't have a server?",
       "items": [
         {
+          "title": "Static is the New Dynamic",
+          "author": "Filippo Conforti",
+          "url": "https://commercelayer.io/blog/static-is-the-new-dynamic/",
+          "description": "An opinionated, yet adaptable approach to build enterprise-grade ecommerce, the JAMstack way.",
+          "tags": [
+            "Article"
+          ]
+        },
+        {
           "title": "Creating a Vue.js Serverless Checkout Form: Setup and Testing",
           "author": "Sarah Drasner",
           "url": "https://css-tricks.com/creating-vue-js-serverless-checkout-part-one/",
