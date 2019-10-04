@@ -373,6 +373,15 @@
           ]
         },
         {
+          "title": "JAMstack Themes",
+          "author": "Stackbit",
+          "url": "https://jamstackthemes.dev",
+          "description": "A huge list of Themes and Starters for JAMstack sites.",
+          "tags": [
+            "Themes"
+          ]
+        },
+        {
           "title": "Hugo Themes (from UICardio)",
           "url": "https://uicard.io/hugo-themes",
           "description": "A collection of 'Freemium' themes for use with the Hugo Static Site Generator.",
