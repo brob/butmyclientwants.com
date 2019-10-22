@@ -102,6 +102,14 @@
           "tags": [
             "Tutorial"
           ]
+        },
+        {
+          "title": "gatsby-source-wordpress Plugin",
+          "url": "https://www.gatsbyjs.org/packages/gatsby-source-wordpress/",
+          "description": "This first party Gatsby plugin allows a blog to move over to the JAMStack while still keeping existing WordPress posts live.",
+          "tags": [
+            "Tool"
+          ]
         }
       ]
     },
