@@ -70,6 +70,14 @@
           ]
         },
         {
+          "title": "TinaCMS",
+          "url": "https://tinacms.org/",
+          "description": "Tina is an open-source site editing toolkit for React-based frameworks — Gatsby & Next.js",
+          "tags": [
+            "tool"
+          ]
+        },
+        {
           "title": "NetlifyCMS",
           "url": "https://www.netlifycms.org/docs/intro/",
           "description": "Official guide for the open source static site CMS called NetlifyCMS.",
