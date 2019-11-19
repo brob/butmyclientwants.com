@@ -216,6 +216,15 @@
           "tags": [
             "Tutorial"
           ]
+        },
+        {
+          "title": "Adding Google Calendar to your JAMStack",
+          "author": "Raymond Camden",
+          "url": "https://www.raymondcamden.com/2019/11/18/adding-google-calendar-to-your-jamstack",
+          "description": "Import Google Calendar events into your JAMstack site via 11ty JavaScript data files.",
+          "tags": [
+            "Tutorial"
+          ]
         }
       ]
     },
