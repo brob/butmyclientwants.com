@@ -180,6 +180,15 @@
           "tags": [
             "Article"
           ]
+        },
+        {
+          "title": "How to create a multi-step form the easy way",
+          "author": "Silvestar Bistrović",
+          "url": "https://dev.to/starbist/how-to-create-a-multi-step-form-the-easy-way-51cp",
+          "description": "Adding a multi-step form to any site could be daunting. Kwes Forms offers the easiest solution on the web and it works great with static sites.",
+          "tags": [
+            "Tutorial"
+          ]
         }
       ]
     },
