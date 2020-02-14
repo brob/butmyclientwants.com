@@ -118,6 +118,14 @@
           "tags": [
             "Tool"
           ]
+        },
+        {
+          "title": "Stackbit",
+          "url": "http://stackbit.com/",
+          "description": "Stackbit connects to your headless CMS to on-page editing, preview sharing and build monitoring directly on the site.\n",
+          "tags": [
+            "Tool"
+          ]
         }
       ]
     },
