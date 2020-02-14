@@ -163,6 +163,15 @@
             "Article",
             "Tool"
           ]
+        },
+        {
+          "title": "A Comparison of Static Form Providers",
+          "author": "Silvestar Bistrović",
+          "url": "https://css-tricks.com/a-comparison-of-static-form-providers/",
+          "description": "In this article, we are going to review some of the most popular static form providers",
+          "tags": [
+            "Article"
+          ]
         }
       ]
     },
@@ -376,6 +385,15 @@
           "author": "Maxime Laboissonnière",
           "url": "https://css-tricks.com/forms-auth-and-serverless-functions-on-gatsby-and-netlify/",
           "description": "Supercharge your static site with forms, password-protected authentication, and AWS Lambda functions. This tutorial explores powerful Netlify features on top of a Gatsby site [w/ live demo & code repo].",
+          "tags": [
+            "Tutorial"
+          ]
+        },
+        {
+          "title": "Creating a JAMstack Site with Open Authoring Using Netlify CMS",
+          "author": "Brian Rinaldi",
+          "url": "https://www.stackbit.com/blog/open-authoring-netlifycms/",
+          "description": "How create a community site with the JAMstack that anyone can edit and contribute using NetlifyCMS's open authoring.",
           "tags": [
             "Tutorial"
           ]
