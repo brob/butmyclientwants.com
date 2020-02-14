@@ -189,6 +189,12 @@
           "tags": [
             "Tutorial"
           ]
+        },
+        {
+          "title": "How to add a contact form to a static website",
+          "author": "Silvestar Bistrović",
+          "url": "https://www.codementor.io/@malimirkeccita/how-to-add-a-contact-form-to-a-static-website-wyl9gsuha",
+          "description": "In this article, you'll learn how to add a contact form with the more advanced form service \"Kwes Forms\", while also learning about its other unique building features."
         }
       ]
     },
