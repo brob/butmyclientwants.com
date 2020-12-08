@@ -15,7 +15,16 @@
             "Article"
           ]
         },
-                {
+        {
+          "title": "10 Headless CMS Options for your JAMstack Website",
+          "author": "Thom Krupa & Nebojsa Radakovic",
+          "url": "https://bejamas.io/blog/headless-cms/",
+          "description": "An in-depth review of the popular headless CMS options from a web dev agency perspective.",
+          "tags": [
+            "Article"
+          ]
+        },        
+        {
           "title": "Sanity.io",
           "author": "Sanity",
           "url": "https://www.sanity.io/jamstack-cms",
@@ -197,6 +206,15 @@
           "description": "Adding a multi-step form to any site could be daunting. Kwes Forms offers the easiest solution on the web and it works great with static sites.",
           "tags": [
             "Tutorial"
+          ]
+        },
+        {
+          "title": "Arengu",
+          "author": "Arengu",
+          "url": "https://www.arengu.com",
+          "description": "Build signup and login forms with Arengu, enable social login, add 2FA or use passwordless flows to authenticate users with your API or identity provider.",
+          "tags": [
+            "Tool"
           ]
         },
         {
