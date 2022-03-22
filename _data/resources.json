@@ -447,6 +447,16 @@
           "tags": [
             "Tutorial"
           ]
+        },
+        {
+          "title": "Email-based comment moderation with Netlify Functions",
+          "author": "Jeremy Epstein",
+          "url": "https://greenash.net.au/thoughts/2022/03/email-based-comment-moderation-with-netlify-functions/",
+          "description": "How to set up a a comment email notification, which goes to an approval form, which commits a comment file (11ty JSON) to GitHub, which then triggers a new site deploy.",
+          "tags": [
+            "Tutorial",
+            "Article"
+          ]
         }
       ]
     },
