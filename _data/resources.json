@@ -163,6 +163,15 @@
           ]
         },
         {
+          "title": "How to Handle Forms on Your Jamstack Website?",
+          "author": "Daniel Woloszyn",
+          "url": "https://bejamas.io/blog/how-to-handle-forms-on-jamstack/",
+          "description": "How to handle forms state, validate fields, what to do with sensitive data, etc. in Jamstack? Well, it depends.",
+          "tags": [
+            "Article"
+          ]
+        },
+        {
           "title": "Building A Serverless Contact Form For Your Static Site",
           "author": "Brian Holt",
           "url": "https://www.smashingmagazine.com/2018/05/building-serverless-contact-form-static-website/",
