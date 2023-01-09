@@ -16,6 +16,6 @@
   },
   "homepage": "https://github.com/brob/butmyclientwants.com#readme",
   "dependencies": {
-    "@11ty/eleventy": "^0.8.2"
+    "@11ty/eleventy": "^1.0.2"
   }
 }
