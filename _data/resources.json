@@ -534,6 +534,14 @@
           "tags": [
             "Themes"
           ]
+        },
+        {
+          "title": "Built At Lightspeed",
+          "url": "https://www.buildatlightspeed.com",
+          "description": "A massive directory of Jamstack themes, starters and UI kits",
+          "tags": [
+            "Themes"
+          ]
         }
       ]
     }
